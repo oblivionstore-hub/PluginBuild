@@ -1,0 +1,14 @@
+name: OblivionFishingPremium
+version: 1.0.0
+main: com.oblivion.premiumfishing.OblivionFishingPremium
+api-version: '26.3'
+author: Oblivion SMP
+description: Premium fishing with rarity tiers, environment modifiers, pity, XP and collection journal.
+commands:
+  fishing:
+    description: Fishing journal and profile commands
+    usage: /fishing [journal|stats|reload]
+    aliases: [fish, ofishing]
+permissions:
+  oblivionfishing.reload:
+    default: op

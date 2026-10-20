@@ -1,0 +1,52 @@
+settings:
+  replace-vanilla-catch: true
+  broadcast-rare-catches: true
+  broadcast-from-rarity: EPIC
+  catch-message: "&8[&bOblivionFishing&8] &7Kamu mendapatkan {item} &8[{rarity}&8]"
+  rare-broadcast: "&d✦ &5{player} menemukan {item} &5({rarity})!"
+  no-loot-message: "&7Arus terlalu kuat... kali ini tidak ada hasil."
+progression:
+  xp-per-catch: 5
+  xp-per-level: 100
+  max-level: 50
+  pity-enabled: true
+  rare-pity-after: 35
+  epic-pity-after: 180
+  rare-pity-multiplier: 2.0
+  epic-pity-multiplier: 2.0
+environment:
+  night-bonus: true
+  rain-bonus: true
+  biome-bonus: true
+  rare-multiplier-at-night: 1.25
+  rare-multiplier-in-rain: 1.2
+  rare-multiplier-in-special-biome: 1.35
+  special-biomes: [DEEP_OCEAN, DEEP_COLD_OCEAN, DEEP_FROZEN_OCEAN, DEEP_LUKEWARM_OCEAN, WARM_OCEAN, MUSHROOM_FIELDS]
+rarities:
+  COMMON: {display: "&fCommon", weight: 7000, color: "&f"}
+  UNCOMMON: {display: "&aUncommon", weight: 2200, color: "&a"}
+  RARE: {display: "&9Rare", weight: 650, color: "&9"}
+  EPIC: {display: "&5Epic", weight: 130, color: "&5"}
+  LEGENDARY: {display: "&6Legendary", weight: 20, color: "&6"}
+  MYTHIC: {display: "&c&lMythic", weight: 2, color: "&c&l"}
+journal:
+  title: "&1&lOblivion Fishing Journal"
+  undiscovered-name: "&7??? Unknown Catch"
+loot:
+  driftwood: {enabled: true, rarity: COMMON, material: STICK, min: 1, max: 4, weight: 25, name: "&7Driftwood", lore: ["&8Common catch", "&7Kayu yang terbawa arus."], xp: 1}
+  silver_sardine: {enabled: true, rarity: COMMON, material: COD, min: 1, max: 3, weight: 50, name: "&fSilver Sardine", lore: ["&8Common catch", "&7Ikan kecil yang berkilau."], xp: 1}
+  river_salmon: {enabled: true, rarity: COMMON, material: SALMON, min: 1, max: 2, weight: 25, name: "&fRiver Salmon", lore: ["&8Common catch", "&7Segar dari arus deras."], xp: 1}
+  sea_glass: {enabled: true, rarity: UNCOMMON, material: PRISMARINE_SHARD, min: 1, max: 3, weight: 35, name: "&aSea Glass", lore: ["&8Uncommon catch", "&7Kaca laut yang terasah ombak."], xp: 2}
+  barnacled_tag: {enabled: true, rarity: UNCOMMON, material: NAME_TAG, min: 1, max: 1, weight: 25, name: "&aBarnacled Name Tag", lore: ["&8Uncommon catch", "&7Nama lama yang hampir terhapus."], xp: 2}
+  sunken_iron: {enabled: true, rarity: UNCOMMON, material: IRON_INGOT, min: 1, max: 3, weight: 40, name: "&aSunken Iron", lore: ["&8Uncommon catch", "&7Besi dari dasar air."], xp: 2}
+  abyss_pearl: {enabled: true, rarity: RARE, material: ENDER_PEARL, min: 1, max: 2, weight: 35, name: "&9Abyss Pearl", lore: ["&8Rare catch", "&7Mutiara dengan denyut misterius."], xp: 5}
+  heart_of_tide: {enabled: true, rarity: RARE, material: HEART_OF_THE_SEA, min: 1, max: 1, weight: 15, name: "&9Heart of the Tide", lore: ["&8Rare catch", "&7Artefak dari laut dalam."], xp: 8}
+  deepwater_diamond: {enabled: true, rarity: RARE, material: DIAMOND, min: 1, max: 2, weight: 30, name: "&9Deepwater Diamond", lore: ["&8Rare catch", "&7Berlian tersembunyi."], xp: 5}
+  drowned_relic: {enabled: true, rarity: RARE, material: TRIDENT, min: 1, max: 1, weight: 5, name: "&9Drowned Relic", lore: ["&8Rare catch", "&7Relik pelaut yang hilang."], xp: 10}
+  abyssal_scrap: {enabled: true, rarity: EPIC, material: NETHERITE_SCRAP, min: 1, max: 2, weight: 40, name: "&5Abyssal Scrap", lore: ["&8Epic catch", "&dLogam dari kedalaman terlarang."], xp: 12}
+  tidebound_totem: {enabled: true, rarity: EPIC, material: TOTEM_OF_UNDYING, min: 1, max: 1, weight: 12, name: "&5Tidebound Totem", lore: ["&8Epic catch", "&dArtefak penjaga arus."], xp: 20}
+  ancient_debris: {enabled: true, rarity: EPIC, material: ANCIENT_DEBRIS, min: 1, max: 2, weight: 28, name: "&5Sunken Ancient Debris", lore: ["&8Epic catch", "&dSisa peradaban tenggelam."], xp: 12}
+  abyssal_ingot: {enabled: true, rarity: LEGENDARY, material: NETHERITE_INGOT, min: 1, max: 1, weight: 70, name: "&6&lAbyssal Ingot", lore: ["&8Legendary catch", "&6✦ Harta dari laut terdalam."], xp: 30}
+  lost_wings: {enabled: true, rarity: LEGENDARY, material: ELYTRA, min: 1, max: 1, weight: 30, name: "&6&lWings of the Lost Tide", lore: ["&8Legendary catch", "&6✦ Legenda yang hampir tak terlihat."], xp: 50}
+  leviathan_heart: {enabled: true, rarity: MYTHIC, material: NETHER_STAR, min: 1, max: 1, weight: 100, name: "&c&lHeart of the Leviathan", lore: ["&8Mythic catch", "&c✦ Artefak mitos dari laut purba."], xp: 100}
+  voidscale: {enabled: true, rarity: MYTHIC, material: DRAGON_EGG, min: 1, max: 1, weight: 1, name: "&c&lVoidscale Relic", lore: ["&8Mythic catch", "&c✦ Relik yang tidak seharusnya ada.", "&4Extremely rare."], xp: 150}
